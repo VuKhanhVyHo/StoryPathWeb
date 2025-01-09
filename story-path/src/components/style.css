@@ -1,0 +1,151 @@
+.custom-heading {
+  font-size: 4rem; 
+  font-weight: bold;
+  color: rgb(255, 111, 0);
+}
+
+.custom-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(255, 111, 0);
+}
+
+.custom-paragraph {
+  font-size: 1.6rem; 
+}
+
+.custom-list {
+  font-size: 1.4rem; 
+}
+
+.custom-list li {
+  margin-bottom: 0.5rem;
+}
+
+html, body {
+  height: 100%; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex-grow: 1; 
+}
+
+footer {
+  width: 100%;
+  padding: 17px 0; /* Add padding for more spacing */
+  background-color: #0a243d;
+  color: #fcfcfc;
+  text-align: center;
+  bottom: 0; /* Stick it to the bottom */
+  left: 0;
+  font-size: 16px; /* Adjust font size */
+  border-top: 4px solid #e94e3d; /* Optional: Add a top border for contrast */
+}
+
+
+.badge-status {
+  margin-left: 15px;
+  font-size: 17px;
+}
+
+h5{margin:0}
+
+.cancel {
+  background-color: grey;
+  border-color: grey;
+  margin-right: 8px;
+}
+
+.form-control {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: 450;
+  margin-left: 1px;
+  font-size: large;
+}
+
+.preview-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 100px;
+  text-align: center;
+}
+.homescreen-information {
+text-align: left;
+padding: 10px;
+}
+
+.score-box {
+  background-color: #800080;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 40%;
+  font-size: 18px;
+}
+
+.name-box {
+  background-color: #800080;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 70%;
+  font-size: 30px;
+}
+
+.nb-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.custom-navbar .nav-link {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: blue;
+}
+
+
+.btn-primary {
+  margin-bottom: 15px;
+}
+
+
+.preview-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
